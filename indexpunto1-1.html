@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Form Validation</title>
+  </head>
+  <body>
+
+    <form action="">
+      <div>
+          <label for="Nombre">Nombre</label>
+          <input type="text" id = 'nombre'>
+      </div>
+        <div>
+          <label for="Subjet">Subjet</label>
+          <input type="text" id = 'subjet'>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id = 'email'>
+    </div>
+    <div>
+      <label for="phone">Telefono</label>
+      <input type="number" id = 'phone'>
+  </div>
+      <input type="submit" onclick='return enviarformulario();' value='Enviar'>
+    </form>
+    <div id = 'error'></div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
